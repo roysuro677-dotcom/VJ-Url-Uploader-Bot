@@ -17,7 +17,7 @@ def is_enabled(value, default):
 
 class Config(object):
     # Bot Information 
-    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "7563219971:AAGDOdH55B44weZmU6oo7nVwy92b8t_mG6o")
+    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "")
     TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "Url_uploader_spk_bot") # Bot username without @.
     
     # The Telegram API things
@@ -51,7 +51,7 @@ class Config(object):
     TECH_VJ_SESSION_NAME = "VJ-URL-UPLOADER-BOT"
     
     # database uri (mongodb)
-    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://roysuro677:yBZ8OxzQjuGaN9lx@cluster0.ls91s7q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "")
     TECH_VJ_MAX_RESULTS = "50"
 
     # channel information
